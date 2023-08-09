@@ -6,6 +6,7 @@ const cors = require('cors');
 
 // routes
 const books = require('./routes/api/books');
+const port = process.env.PORT || 8082;
 
 const app = express();
 
@@ -27,6 +28,6 @@ app.get("/test",(req,res) => res.send("test"));
 // use Routes
 app.use('/', books);
 
-const port = process.env.PORT || 8082;
+
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
