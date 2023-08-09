@@ -2,7 +2,7 @@
   "name": "mern_a_to_z",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "app": "nodemon index.js",
