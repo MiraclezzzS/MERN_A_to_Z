@@ -22,6 +22,8 @@ app.use(express.json({ extended: false }));
 
 app.get('/', (req, res) => res.send('Hello world!'));
 
+app.get("/test",(req,res) => res.send("test"));
+
 // use Routes
 app.use('/api/books', books);
 
