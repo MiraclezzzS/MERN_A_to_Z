@@ -10,7 +10,7 @@ const router = express.Router();
 
 // Load Book model
 
-const Book = require('../../models/Books');
+const Book = require('../../models/Book');
 
  
 
