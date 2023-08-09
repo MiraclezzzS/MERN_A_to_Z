@@ -9,6 +9,8 @@ const books = require('./routes/api/books');
 
 const app = express();
 
+const path = require("path");
+process.env["NODE_CONFIG_DIR"] = path.join(path.resolve("./"), "config/");
 // Connect Database
 connectDB();
 
