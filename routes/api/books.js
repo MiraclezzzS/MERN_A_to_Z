@@ -9,7 +9,7 @@ const Book = require('../../models/Book');
 // @route GET api/books/test
 // @description tests books route
 // @access Public
-router.get('/test', (req, res) => res.send('book route testing!'));
+router.get('/test1', (req, res) => res.send('book route testing!'));
 
 // @route GET api/books
 // @description Get all books
